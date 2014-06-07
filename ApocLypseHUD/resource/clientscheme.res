@@ -21,9 +21,9 @@ Scheme
 		//HUD Colors
 		
 			//Ammo Colors
-			"Ammo In Clip"				"153 0 153 255"
-			"Ammo In Reserve"			"51 255 153 255"
-			"Ammo In Clip Low"			"153 0 153 255"
+			"Ammo In Clip"				"51 255 153 255"
+			"Ammo In Reserve"			"153 0 153 255"
+			"Ammo In Clip Low"			"51 255 153 255"
 			"Ammo In Reserve Low"		"204 0 102 255"
 			"Ammo No Clip"				"51 255 153 255"
 			"Ammo No Clip Low"			"204 0 102 255"
@@ -68,9 +68,9 @@ Scheme
 			"Vaccinator Meter 4"		"255 255 255 255"
 			"Stickylauncher Meter"		"255 255 255 255"
 			"Stickylauncher Label"		"0 0 0 255"
-			"Damage Numbers"			"0 0 255 200"
+			"Damage Numbers"			"255 0 255 200"
 			"Heal Numbers"				"0 255 0 200"
-			"Last Damage Numbers"		"255 0 255 255"
+			"Last Damage Numbers"		"255 255 255 255"
 			"Scoreboard Blue"			"153 153 255 50"
 			"Scoreboard Red"			"255 128 128 50"
 			"Disguise Status Colors"		"255 255 0 255"
