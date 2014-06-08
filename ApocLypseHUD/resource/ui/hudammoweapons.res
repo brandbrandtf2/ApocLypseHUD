@@ -72,7 +72,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"PuritanBold44"
 		"fgcolor"		"Ammo In Reserve"
-		"xpos"			"54"
+		"xpos"			"56"
 		"ypos"			"70"
 		"zpos"			"7"
 		"wide"			"100"

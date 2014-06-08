@@ -39,13 +39,15 @@
 		"enabled"	"1"
 		"image"		"capture_icon"
 		"scaleImage"	"1"
+		"fgcolor_override"		"HUD Black"
+		"fgcolor_override"		"HUD Black"
 	}
 
 	"CapNumPlayers"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"PuritanBold12"
+		"font"			"Puritan12"
 		"xpos"			"15"
 		"ypos"			"4"
 		"zpos"			"4"
@@ -59,6 +61,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"HUD Black"
 	}
 
 	"OverlayImage"
@@ -92,21 +95,81 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Puritan16"
+		"font"			"ControlPointTimer"
 	}
 				
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"CPTimerBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"		"66"
 		"tall"		"33"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
+		"image"			"../sprites/obj_icons/icon_obj_timer"	
 		"scaleImage"	"1"	
-		"fillcolor"		"0 0 0 100"
 	}
+	
+	"ImageBorderLeft"
+        {
+                "ControlName"   "ImagePanel"           
+                "fieldName"     "ImageBorderLeft"
+                "xpos"          "-1"
+                "ypos"          "0"
+                "zpos"          "3"
+                "wide"          "4"
+                "tall"          "32"
+                "visible"       "1"
+                "enabled"       "1"
+                "fillcolor"     "32 32 32 255"
+                "scaleImage"    "1"
+        }
+       
+        "ImageBorderRight"
+        {
+                "ControlName"   "ImagePanel"           
+                "fieldName"     "ImageBorderRight"
+                "xpos"          "30"
+                "ypos"          "0"
+                "zpos"          "3"
+                "wide"          "4"
+                "tall"          "30"
+                "visible"       "1"
+                "enabled"       "1"
+                "fillcolor"     "32 32 32 255"
+                "scaleImage"    "1"
+        }
+       
+        "ImageBorderTop"
+        {
+                "ControlName"   "ImagePanel"           
+                "fieldName"     "ImageBorderTop"
+                "xpos"          "0"
+                "ypos"          "-1"
+                "zpos"          "3"
+                "wide"          "30"
+                "tall"          "4"
+                "visible"       "1"
+                "enabled"       "1"
+                "fillcolor"     "32 32 32 255"
+                "scaleImage"    "1"
+        }
+       
+        "ImageBorderBottom"
+        {
+                "ControlName"   "ImagePanel"           
+                "fieldName"     "ImageBorderBottom"
+                "xpos"          "0"
+                "ypos"          "30"
+                "zpos"          "3"
+                "wide"          "32"
+                "tall"          "4"
+                "visible"       "1"
+                "enabled"       "1"
+                "fillcolor"     "32 32 32 255"
+                "scaleImage"    "1"
+        }
 }

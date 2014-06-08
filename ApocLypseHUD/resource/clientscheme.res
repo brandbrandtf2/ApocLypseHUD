@@ -24,17 +24,17 @@ Scheme
 			//Do not change the fouth value, it deals with the transparency of things
 		
 			//Ammo Colors
-			"Ammo In Clip"				"255 255 255 255"
-			"Ammo In Reserve"			"255 255 255 255"
-			"Ammo In Clip Low"			"255 255 255 255"
-			"Ammo In Reserve Low"		"255 255 255 255"
-			"Ammo No Clip"				"255 255 255 255"
-			"Ammo No Clip Low"			"255 255 255 255"
+			"Ammo In Clip"				"0 255 255 255"
+			"Ammo In Reserve"			"0 255 102 255"
+			"Ammo In Clip Low"			"0 255 255 255"
+			"Ammo In Reserve Low"		"255 102 0 255"
+			"Ammo No Clip"				"0 255 102 255"
+			"Ammo No Clip Low"			"255 102 0 255"
 			
 			//Health Colors
 			"Health Normal"				"255 255 255 255"
-			"Health Buff"				"255 255 255 255"
-			"Health Hurt"				"255 255 255 255"
+			"Health Buff"				"0 255 102 255"
+			"Health Hurt"				"255 102 0 255"
 			
 			//RGB Colors
 			"HUD Red"					"255 0 0 255"
@@ -72,11 +72,11 @@ Scheme
 			"Vaccinator Meter 4"		"255 255 255 255"
 			"Stickylauncher Meter"		"255 255 255 255"
 			"Stickylauncher Label"		"0 0 0 255"
-			"Damage Numbers"			"0 255 0 200"
-			"Heal Numbers"				"0 255 0 200"
-			"Last Damage Numbers"		"255 255 255 255"
-			"Scoreboard Blue"			"153 153 255 50"
-			"Scoreboard Red"			"255 128 128 50"
+			"Damage Numbers"			"255 255 0 200"
+			"Heal Numbers"				"0 204 68 255"
+			"Last Damage Numbers"		"255 255 0 255"
+			"Scoreboard Blue"			"0 0 0 100"
+			"Scoreboard Red"			"0 0 0 100"
 			"Disguise Status Colors"		"255 255 0 255"
 			"Button Color"				"72 255 255 255"
 			"HUD Labels"				"0 0 0 255"
@@ -578,7 +578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Puritan"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -913,7 +913,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"PuritanBold"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1692,7 +1692,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"PuritanBold"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1703,8 +1703,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"7"
+				"name"		"PuritanBold"
+				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1885,7 +1885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"PuritanBold"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1897,7 +1897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"PuritanBold"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A

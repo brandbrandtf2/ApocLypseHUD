@@ -248,7 +248,7 @@
 		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
-		//"image"			"..logo/new_tf2_logo"
+		//"image"			"..replay/thumbnails/tflogo"
 		"scaleImage"	"1"
 	}	
 	

@@ -30,7 +30,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"25"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
@@ -39,7 +39,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"
-		"image_lodef"	"../hud/objectives_timepanel_blue_bg"
 		
 		"src_corner_height"		"3"				// pixels inside the image
 		"src_corner_width"		"3"
@@ -61,7 +60,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_red_bg"
-		"image_lodef"	"../hud/objectives_timepanel_red_bg"
 		
 		"src_corner_height"		"3"				// pixels inside the image
 		"src_corner_width"		"3"
@@ -132,7 +130,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"ypos"			"5"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"32"
