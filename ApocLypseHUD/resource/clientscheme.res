@@ -20,18 +20,21 @@ Scheme
 	{
 		//HUD Colors
 		
+			//To edit these colors, use this website	http://www.colorschemer.com/online.html
+			//Do not change the fouth value, it deals with the transparency of things
+		
 			//Ammo Colors
-			"Ammo In Clip"				"51 255 153 255"
-			"Ammo In Reserve"			"153 0 153 255"
-			"Ammo In Clip Low"			"51 255 153 255"
-			"Ammo In Reserve Low"		"204 0 102 255"
-			"Ammo No Clip"				"51 255 153 255"
-			"Ammo No Clip Low"			"204 0 102 255"
+			"Ammo In Clip"				"255 255 255 255"
+			"Ammo In Reserve"			"255 255 255 255"
+			"Ammo In Clip Low"			"255 255 255 255"
+			"Ammo In Reserve Low"		"255 255 255 255"
+			"Ammo No Clip"				"255 255 255 255"
+			"Ammo No Clip Low"			"255 255 255 255"
 			
 			//Health Colors
-			"Health Normal"				"0 204 68 255"
-			"Health Buff"				"0 204 68 255"
-			"Health Hurt"				"0 204 68 255"
+			"Health Normal"				"255 255 255 255"
+			"Health Buff"				"255 255 255 255"
+			"Health Hurt"				"255 255 255 255"
 			
 			//RGB Colors
 			"HUD Red"					"255 0 0 255"
@@ -44,6 +47,7 @@ Scheme
 			"Light Gray"				"199 199 199 255"
 			"Gray"						"161 161 161 255"
 			"Dark Gray"					"97 97 97 255"
+			"Faded Black"				"0 0 0 100"
 			
 			//Hues
 			"Aqua"						"0 255 255 255"
@@ -68,12 +72,15 @@ Scheme
 			"Vaccinator Meter 4"		"255 255 255 255"
 			"Stickylauncher Meter"		"255 255 255 255"
 			"Stickylauncher Label"		"0 0 0 255"
-			"Damage Numbers"			"255 0 255 200"
+			"Damage Numbers"			"0 255 0 200"
 			"Heal Numbers"				"0 255 0 200"
 			"Last Damage Numbers"		"255 255 255 255"
 			"Scoreboard Blue"			"153 153 255 50"
 			"Scoreboard Red"			"255 128 128 50"
 			"Disguise Status Colors"		"255 255 0 255"
+			"Button Color"				"72 255 255 255"
+			"HUD Labels"				"0 0 0 255"
+			"HUD Meters"				"255 255 255 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

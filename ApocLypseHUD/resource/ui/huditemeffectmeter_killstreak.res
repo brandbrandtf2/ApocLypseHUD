@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-45"	[$WIN32]
-		"ypos"			"c160"	[$WIN32]
+		"xpos"			"c-215"	[$WIN32]
+		"ypos"			"c135"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -87,6 +87,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Puritan20"
+		"font"					"PuritanBold20"
 	}
 }

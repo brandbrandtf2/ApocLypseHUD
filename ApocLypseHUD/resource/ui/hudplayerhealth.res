@@ -5,10 +5,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-150"		[$WIN32]
-		"ypos"			"c50"	[$WIN32]
+		"xpos"			"c-300"		[$WIN32]
+		"ypos"			"c45"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"60"
+		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -16,15 +16,63 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+	"BroeselHealthTeamColoredBorderVertical"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"BroeselHealthTeamColoredBorderVertical"
+		"xpos"			"102"
+		"ypos"			"58"
+		"zpos"			"2"
+		"wide"			"17"
+		"tall"	 		"40"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible" "1" 
+		"enabled" "1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}
+	"BroeselHealthTeamColoredBorderHorizontal"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"BroeselHealthTeamColoredBorderHorizontal"
+		"xpos"			"90"
+		"ypos"			"69"
+		"zpos"			"2"
+		"wide"			"40"
+		"tall"	 		"17"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible" "1"
+		"enabled" "1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 		"0"	
+	}	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"-80"
-		"ypos"			"35"
-		"zpos"			"2"
-		"wide"			"220"
-		"tall"			"80"
+		"xpos"			"95"
+		"ypos"			"62"
+		"zpos"			"4"
+		"wide"			"31"
+		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -33,266 +81,26 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"-80"
-		"ypos"			"33"
-		"zpos"			"1"
-		"wide"			"220"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"93"
+		"ypos"			"60"
+		"zpos"			"3"
+		"wide"			"35"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}
-"BroeselHealthTeamColoredBorderTop"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"BroeselHealthTeamColoredBorderTop"
-		"xpos"			"0"
-		"ypos"			"33"
-		"zpos"			"20"
-		"wide"			"63"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"BroeselHealthTeamColoredBorderLeft"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"BroeselHealthTeamColoredBorderLeft"
-		"xpos"			"0"
-		"ypos"			"35"
-		"zpos"			"20"
-		"wide"			"3"
-		"tall"	 		"81"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1"
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"BroeselHealthTeamColoredBorderRight"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"BroeselHealthTeamColoredBorderRight"
-		"xpos"			"58"
-		"ypos"			"35"
-		"zpos"			"20"
-		"wide"			"3"
-		"tall"	 		"81"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1"
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-"BroeselHealthTeamColoredBorderBottom"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"BroeselHealthTeamColoredBorderBottom"
-		"xpos"			"0"
-		"ypos"			"113"
-		"zpos"			"20"
-		"wide"			"63"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"SlitsTL"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SlitsTL"
-		"xpos"			"0"
-		"ypos"			"50"
-		"zpos"			"20"
-		"wide"			"5"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"SlitsML"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SlitsML"
-		"xpos"			"0"
-		"ypos"			"75"
-		"zpos"			"20"
-		"wide"			"5"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"SlitsBL"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SlitsBL"
-		"xpos"			"0"
-		"ypos"			"100"
-		"zpos"			"20"
-		"wide"			"5"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
 	}	
-	"SlitsTR"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SlitsTR"
-		"xpos"			"55"
-		"ypos"			"50"
-		"zpos"			"20"
-		"wide"			"5"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"SlitsMR"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SlitsMR"
-		"xpos"			"55"
-		"ypos"			"75"
-		"zpos"			"20"
-		"wide"			"5"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
-	"SlitsBR"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"SlitsBR"
-		"xpos"			"55"
-		"ypos"			"100"
-		"zpos"			"20"
-		"wide"			"5"
-		"tall"	 		"3"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible" "1" 
-		"enabled" "1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		
-		"src_corner_height"		"40"				// pixels inside the image
-		"src_corner_width"		"40"			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"-70"	[$WIN32]
-		"ypos"			"45"	[$WIN32]
-		"zpos"			"-1"
-		"wide"			"220"	[$WIN32]
-		"tall"			"80"	[$WIN32]
-		"visible"		"0"
+		"xpos"			"103"	[$WIN32]
+		"ypos"			"59"	[$WIN32]
+		"zpos"			"2"
+		"wide"			"35"	[$WIN32]
+		"tall"			"60"	[$WIN32]
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -301,19 +109,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"4"
-		"ypos"			"53"	[$WIN32]
+		"xpos"			"126"
+		"ypos"			"52"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"PuritanBold32"
+		"font"			"PuritanBold48"
 		"fgcolor"		"Health Normal"
-		"outline"		"1"
-	}	
+	}								
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

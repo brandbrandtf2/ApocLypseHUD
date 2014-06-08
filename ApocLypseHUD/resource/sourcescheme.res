@@ -25,7 +25,7 @@ Scheme
 	    "TFTextBlack"               "42 39 37 255"
 	    "TFTextDull"                "131 121 104 255"
 
-	    "TFMediumBrown"		"69 64 58 255"
+	    "TFMediumBrown"		"50 50 50 255"
 
 	    "QuickListBGDeselected"		"69 64 58 255"
 	    "QuickListBGSelected"               "131 121 104 150"
@@ -33,12 +33,12 @@ Scheme
 	    "Blank"				"0 0 0 0"
 	    
 	    // background colors
-		"ControlBG"			"0 0 0 200"		// background color of controls
-		"ControlDarkBG"		"0 0 0 200"		// darker background color; used for background of scrollbars
-		"WindowBG"			"0 0 0 200"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"0 0 0 200"	// background color of any selected text or menu item
-		"SelectionBG2"		"0 0 0 200"		// selection background in window w/o focus
-		"ListBG"			"0 0 0 200"		// background of server browser, buddy list, etc.
+		"ControlBG"			"0 0 200 200"		// background color of controls
+		"ControlDarkBG"		"0 0 200 200"		// darker background color; used for background of scrollbars
+		"WindowBG"			"0 0 200 200"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"0 0 200 200"	// background color of any selected text or menu item
+		"SelectionBG2"		"0 0 200 200"		// selection background in window w/o focus
+		"ListBG"			"0 0 200 200"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{

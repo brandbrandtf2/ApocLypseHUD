@@ -105,7 +105,7 @@
 		"font"			"PuritanBold48"
 		"fgcolor"		"Ammo No Clip"
 		"xpos"			"0"
-		"ypos"			"52"
+		"ypos"			"50"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"48"

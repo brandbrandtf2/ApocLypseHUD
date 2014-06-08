@@ -79,10 +79,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"c120"	[$WIN32]
-		"wide"			"140"
-		"tall"			"50"
+		"xpos"			"c-75"	[$WIN32]
+		"ypos"			"c25"	[$WIN32]
+		"wide"			"500"
+		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -92,22 +92,21 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-100"	[$WIN32]
-		"ypos"			"c120"	[$WIN32]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"c-150"	
+		"ypos"			"c20"	
+		"wide"			"500"
+		"tall"			"500"
 	}
 	
 	HudDemomanCharge
 	{
-		"fieldName"		"HudDemomanCharge"
+		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"c120"	[$WIN32]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"140"
-		"tall"			"20"
+		"xpos"			"c-75"	[$WIN32]
+		"ypos"			"c25"	[$WIN32]
+		"wide"			"150"
+		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -1028,7 +1027,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-41"	[$WIN32]
-		"ypos"			"c70"	[$WIN32]
+		"ypos"			"c80"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 	}		
@@ -1040,7 +1039,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1053,7 +1051,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
-		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"245"
 	}
