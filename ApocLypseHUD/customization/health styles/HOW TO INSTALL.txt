@@ -1,6 +1,0 @@
-To install these:
-
-1. locate the file ApocLypseHUD/resource/ui/hudplayerhealth.res
-2. delete/rename the current hudplayerhealth.res
-3. drag and drop/cut and paste any of the other hudplayerhealth.res files into the resource/ui folder
-4. rename the new file to hudplayerhealth.res
