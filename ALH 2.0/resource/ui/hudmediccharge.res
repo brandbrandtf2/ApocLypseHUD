@@ -21,8 +21,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"90"
-		"ypos"			"60"
+		"xpos"			"39"
+		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"72"
@@ -35,8 +35,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"PuritanBold52"
-		"fgcolor_override"		"Apocalyptic White"
+		"font"			"PuritanBold36"
+		"fgcolor_override"		"General Label"
 	}
 	
 	"IndividualChargesLabel"
@@ -92,7 +92,7 @@
 		"ypos"			"117"
 		"zpos"			"2"
 		"wide"			"150"
-		"tall"			"8"
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -188,8 +188,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"75"
-		"ypos"			"114"
+		"xpos"			"25"
+		"ypos"			"115"
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"15"

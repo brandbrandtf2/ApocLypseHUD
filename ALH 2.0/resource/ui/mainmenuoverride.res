@@ -213,7 +213,7 @@
 			"use_proportional_insets" "1"
 			"font"			"PuritanBold20"
 			"textAlignment"	"west"
-			"labelText"		"ApocLypseHUD 2.0"
+			"labelText"		"ApocLypseHUD 2.1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

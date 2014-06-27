@@ -9,7 +9,7 @@
 		"ypos"			"112"
 		"zpos"			"2"
 		"wide"			"150"
-		"tall"			"8"				
+		"tall"			"1"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -23,8 +23,8 @@
 	{
 		"ControlName" 		"CExLabel"
 		"fieldName" 		"ChargeMeterLabel"
-		"xpos" 				"0"
-		"ypos" 				"112"
+		"xpos" 				"-50"
+		"ypos" 				"114"
 		"zpos" 				"3"
 		"wide" 				"150"
 		"tall" 				"8"
@@ -33,11 +33,11 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		"tabPosition" 		"0"
-		"labelText" 		"CHARGE"
+		"labelText" 		"STICKIES"
 		"textAlignment" 	"center"
 		"dulltext" 		  	"0"
 		"brighttext" 	   	"0"
 		"font" 			  	"Puritan12"
-		"fgcolor_override" 	"General Label"
+		"fgcolor_override" 	"General Meter"
 	}	
 }

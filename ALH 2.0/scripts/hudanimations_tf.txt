@@ -208,10 +208,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	Animate PlayerStatusHealthValue			fgcolor		"Health Buff"		Linear 0.0 0.0
 	Animate HealthValueShadow				fgcolor		"General Shadow Special"		Linear 0.0 0.0 
-    //Animate	HealthBG 	    BgColor		"Health BG Buff"        Accel 0.0 0.0
-    //Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
-	//Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
-
+	Animate BonusHealthWarning				fgcolor     "ALH Yellow"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueID			fgcolor		"Health Buff"		Linear 0.0 0.0
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -227,8 +226,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate PlayerStatusHealthValue			fgcolor		"Health Normal"		Linear 0.0 0.0
 	Animate HealthValueShadow				fgcolor		"General Shadow"		Linear 0.0 0.0 
-    //Animate	HealthBG 	     BgColor		"Invisible"	       Accel 0.0 0.0
-    //Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
+	Animate BonusHealthWarning				fgcolor     "Invisible"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueID			fgcolor		"Health Normal"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -240,9 +239,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	Animate PlayerStatusHealthValue			fgcolor		"Health Hurt"		Linear 0.0 0.0
 	Animate HealthValueShadow				fgcolor		"General Shadow Special"		Linear 0.0 0.0 
-    //Animate	HealthBG 	    BgColor		"Health BG Hurt"	    Accel 0.0 0.0
-    //Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
-	//Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
+	Animate LowHealthWarning				fgcolor     "ALH Yellow"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueID		fgcolor		"Health Hurt"		Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -259,8 +257,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate PlayerStatusHealthValue			fgcolor		"Health Normal"		Linear 0.0 0.0
 	Animate HealthValueShadow				fgcolor		"General Shadow"			Linear 0.0 0.0
-    //Animate	HealthBG 	     BgColor		"Invisible"	       Accel 0.0 0.0
-    //Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
+	Animate LowHealthWarning				fgcolor     "Invisible"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValueID			fgcolor		"Health Normal"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -272,6 +270,7 @@ event HudLowAmmoPulse
 	Animate AmmoInClip					fgcolor		"Ammo In Clip Low"		Linear 0.0 0.0
 	Animate AmmoInReserve				fgcolor		"Ammo In Reserve Low"		Linear 0.0 0.0
 	Animate AmmoNoClip					fgcolor		"Ammo No Clip Low"		Linear 0.0 0.0
+	Animate LowAmmoWarning				fgcolor		"ALH Yellow"		Linear 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -289,6 +288,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoInClip					fgcolor		"Ammo In Clip"		Linear 0.0 0.0
 	Animate AmmoInReserve				fgcolor		"Ammo In Reserve"		Linear 0.0 0.0
 	Animate AmmoNoClip					fgcolor		"Ammo No Clip"		Linear 0.0 0.0
+	Animate LowAmmoWarning				fgcolor		"Invisible"		Linear 0.0 0.0
 }
 
 //===========================================
@@ -758,6 +758,11 @@ event NotificationsPresentBlinkStop
 event DamagedPlayer
 {
 	// empty
+	Animate KonrWings FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate KonrWings FgColor "255 255 255 255" Linear 0.15 0.0
+	
+	Animate xHairCircle FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate xHairCircle FgColor "255 255 255 255" Linear 0.15 0.0
 }
 
 //===========================================

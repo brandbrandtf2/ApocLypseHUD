@@ -62,10 +62,10 @@ Scheme
 		
 		"Damage Indicator"			"255 255 51 255"
 		"Healing Indicator"			"25 255 126 255"
-		"Last Damage Info"			"255 255 204 255"
+		"Last Damage Info"			"255 255 51 255"
 		
 		"General Meter"				"255 255 255 255"
-		"General Label"				"0 0 0 255"
+		"General Label"				"255 255 255 255"
 		"General Shadow"			"51 51 51 255"
 		"General Shadow Special"	"255 255 204 255"
 		"General BG"				"0 0 0 100"
@@ -2460,7 +2460,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -2470,7 +2470,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -2480,7 +2480,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -2490,7 +2490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"24"
 				"antialias" "1"
 			}
@@ -2500,7 +2500,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"28"
 				"antialias" "1"
 			}
@@ -2510,7 +2510,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -2520,7 +2520,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"36"
 				"antialias" "1"
 			}
@@ -2530,7 +2530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -2540,7 +2540,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"44"
 				"antialias" "1"
 			}
@@ -2550,7 +2550,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"48"
 				"antialias" "1"
 			}
@@ -2560,7 +2560,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan"
+				"name"		"Biko"
 				"tall"		"52"
 				"antialias" "1"
 			}
@@ -2572,7 +2572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -2582,7 +2582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -2592,7 +2592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -2602,7 +2602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"24"
 				"antialias" "1"
 			}
@@ -2612,7 +2612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"28"
 				"antialias" "1"
 			}
@@ -2622,7 +2622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -2632,7 +2632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"36"
 				"antialias" "1"
 			}
@@ -2642,7 +2642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -2652,7 +2652,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"44"
 				"antialias" "1"
 			}
@@ -2662,7 +2662,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"48"
 				"antialias" "1"
 			}
@@ -2672,7 +2672,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Puritan Bold"
+				"name"		"Biko-Bold"
 				"tall"		"52"
 				"antialias" "1"
 			}
@@ -2799,6 +2799,130 @@ Scheme
 			"weight"		"0"
 			"antialias"		"1"
 			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs12"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"12"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs14"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"14"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs16"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"16"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"CrosshairsOutline18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs20"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"20"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs22"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"22"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"xHairCircle"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"72"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"xHairCircleOutline"
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"72"
+				"weight"	"0"
+				"antialias"	"1"
+				"outline"	"1"
 			}
 		}
 	}
@@ -4726,6 +4850,26 @@ Scheme
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
+		}
+		"11"
+		{
+			"font" "resource/fonts/Biko_Regular.otf"
+			"name" "Biko"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Biko_Bold.otf"
+			"name" "Biko-Bold"
+		}		
+		"13"
+		{
+			"font" "resource/fonts/Biko_Black.otf"
+			"name" "Biko-Black"
+		}	
+		"14"
+		{
+			"font" "resource/crosshairs.ttf"
+			"name" "Crosshairs"
 		}		
 	}
 }

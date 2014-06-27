@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-310"		[$WIN32]
-		"ypos"			"c95"	[$WIN32]
+		"xpos"			"c-320"		[$WIN32]
+		"ypos"			"c90"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -47,8 +47,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"151"	[$WIN32]
-		"ypos"			"22"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"75"	[$WIN32]
 		"tall"			"75"	[$WIN32]
@@ -89,23 +89,6 @@
 		"font"			"PuritanBold52"
 		"fgcolor"		"General Shadow"
 	}	
-	"HealthBG"	
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"HealthBG"
-		"xpos"		"148"
-		"ypos"		"32"
-		"zpos"		"2"
-		"wide"		"80"
-		"tall"		"52"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultBgColor_Override"		"Invisible"
-		"PaintBackgroundType""0"
-        "textinsety" "99"
-	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -321,5 +304,78 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+	}
+	
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"131"
+		"ypos"			"34"
+		"zpos"			"-1"
+		"wide"			"105"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"General BG"
+	}
+
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"121"
+		"ypos"			"34"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"	 		"48"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}	
+	
+	"LowHealthWarning"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LowHealthWarning"
+		"xpos"			"129"
+		"ypos"			"15"
+		"zpos"			"5"
+		"wide"			"105"
+		"tall"			"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"		"LOW ALERT"
+		"textAlignment"	"center"	
+		"font"			"PuritanBold20"
+		"fgcolor"		"Invisible"
+	}
+	
+	"BonusHealthWarning"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BonusHealthWarning"
+		"xpos"			"129"
+		"ypos"			"15"
+		"zpos"			"5"
+		"wide"			"105"
+		"tall"			"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"		"OVERHEAL"
+		"textAlignment"	"center"	
+		"font"			"PuritanBold20"
+		"fgcolor"		"Invisible"
 	}
 }

@@ -7,19 +7,41 @@
 		"fieldName"	 	"KonrWings"
 		"visible"		"0"
 		"enabled"		"0"
+		"zpos"			"20"
+
+		"xpos"			"c-30"
+		"ypos"			"c-24"
+		"wide"			"50"
+		"tall"			"50"
+		
+		//"font"			"KonrWingsOutline20"
+
+
+		"font"			"KonrWings20"
+		"labelText"		"Z"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	xHairCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairCircle"
+		"font"			"xHairCircle"
+		"visible"		"0"
+		"enabled"		"0"
 		"zpos"			"2"
 
-		"xpos"			"c-13"
-		"ypos"			"c-99"
+		"xpos"			"c-100"
+		"ypos"			"c-103"
 		"wide"			"200"
 		"tall"			"200"
-		
-		//"font"			"KonrWingsOutline22"
 
-
-		"font"			"KonrWings22"
-		"labelText"		"Z"
-		"textAlignment"	"west"	
+		//"font"		"xHairCircleOutline"
+		"font"			"xHairCircle"
+		"labelText"		"o"
+		"textAlignment"	"center"	
 		
 		"fgcolor"		"255 255 255 255"
 	}
@@ -40,8 +62,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c40"	[$WIN32]
-		"ypos"	"c75"	[$WIN32]
+		"xpos"	"c50"	[$WIN32]
+		"ypos"	"c71"	[$WIN32]
 		"wide"	"250"
 		"tall"	"120"
 	}
@@ -80,7 +102,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"c60"	[$WIN32]
+		"ypos"			"c-0"	[$WIN32]
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
@@ -93,7 +115,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-150"	
-		"ypos"			"c60"	
+		"ypos"			"c-0"	
 		"wide"			"500"
 		"tall"			"500"
 	}
@@ -104,7 +126,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"c60"	[$WIN32]
+		"ypos"			"c40"	[$WIN32]
 		"wide"			"150"
 		"tall"			"500"
 		"MeterFG"		"White"
@@ -131,7 +153,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"c60"	[$WIN32]
+		"ypos"			"c40"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"150"
 		"tall"			"500"
@@ -195,8 +217,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
+		"xpos"					"c90"	[$WIN32]
+		"ypos"					"c-5"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -207,8 +229,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-288"
-		"ypos"					"c60"
+		"xpos"					"c-254"
+		"ypos"					"c54"
 		"wide"					"250"
 		"tall"  				"120"
 		"visible" 				"1"
@@ -591,7 +613,7 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c165"
+		"xpos"		"c170"
 		"ypos"		"310"	[$WIN32]
 		"wide"		"150"
 		"tall"		"100"	[$WIN32]
@@ -1011,8 +1033,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-43"	[$WIN32]
-		"ypos"			"c120"	[$WIN32]
+		"xpos"			"c-85"	[$WIN32]
+		"ypos"			"c80"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 	}		
@@ -1121,8 +1143,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"55"
 	}

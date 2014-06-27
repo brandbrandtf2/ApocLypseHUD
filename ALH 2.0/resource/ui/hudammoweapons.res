@@ -20,13 +20,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"66"
-		"ypos"			"40"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"35"
 		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../vgui/replay/thumbnails/ammo_icon"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
@@ -131,5 +131,82 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
-	}									
+	}	
+	"AmmoBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoBG"
+		"xpos"			"34"
+		"ypos"			"53"
+		"zpos"			"-1"
+		"wide"			"105"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"General BG"
+	}
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"139"
+		"ypos"			"53"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"	 		"48"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}	
+	"TI2"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TI2"
+		"xpos"			"25"
+		"ypos"			"53"
+		"zpos"			"2"
+		"wide"			"10"
+		"tall"	 		"48"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"0" 
+		"enabled" 		"0"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}
+	"LowAmmoWarning"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LowAmmoWarning"
+		"xpos"			"33"
+		"ypos"			"34"
+		"zpos"			"5"
+		"wide"			"105"
+		"tall"			"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"		"LOW AMMO"
+		"textAlignment"	"center"	
+		"font"			"PuritanBold20"
+		"fgcolor"		"Invisible"
+	}
 }
